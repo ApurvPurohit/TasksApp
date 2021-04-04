@@ -1,25 +1,7 @@
----
-languages:
-- php
-page_type: sample
-description: "This is a sample application that you can use to follow along with the Build a PHP and MySQL web app in Azure tutorial."
-products:
-- azure
-- azure-app-service
----
+# TasksApp: Deploying a PHP and MySQL app in Azure App Service
 
-# Laravel sample for Azure App Service
-
-This is a sample application that you can use to follow along with the tutorial at 
-[Build a PHP and MySQL web app in Azure](https://docs.microsoft.com/azure/app-service-web/app-service-web-tutorial-php-mysql). 
-
-This sample application is taken from the official [Laravel sample task list application](https://github.com/laravel/quickstart-basic) and modified minimally to make it work with Azure App Service. For instructions on how to use Laravel, see the official repository. 
+Azure App Service provides a highly scalable, self-patching web hosting service using the Linux operating system. In this project, I have explored two Azure Services: Azure App Service and Azure Database for MySQL Server. I have deployed a basic PHP Laravel App in Azure and connected it to a MySQL Database in Azure. I have used Local Git as the deployment source. The app is a basic Tasks App(a To-Do list app) that can be used to add, delete and display tasks persistently.
 
 ## License
 
-See [LICENSE](https://github.com/Azure-Samples/laravel-tasks/blob/master/LICENSE).
-
-## Contributing
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-  
+[Deployed WebApp](https://tasksapp.azurewebsites.net/) 
